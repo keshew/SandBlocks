@@ -37,6 +37,8 @@ struct WideButton: View {
                 
                 Text(text)
                     .font(.custom("Yeast22-Regular", size: sizeText))
+                    .foregroundColor(Color(#colorLiteral(red: 0/255, green: 178/255, blue: 70/255, alpha: 1)))
+                    
             }
         }
     }
@@ -44,21 +46,20 @@ struct WideButton: View {
 
 struct LevelButton: View {
     var text: String
+    var image: String
     var action: () -> Void
-//    var sizeWButton: CGFloat
-//    var sizeHButton: CGFloat
-//    var sizeText: CGFloat
     var body: some View {
         Button(action: {
             action()
         }) {
             ZStack {
-                Image(ImageName.smallButtonForLevelsImage.rawValue)
+                Image(image)
                     .resizable()
                     .frame(width: 104, height: 104)
                 
                 Text(text)
-                    .font(.custom("", size: 52))
+                    .font(.custom("Yeast22-Regular", size: 52))
+                    .foregroundColor(Color(#colorLiteral(red: 0/255, green: 178/255, blue: 70/255, alpha: 1)))
             }
         }
     }

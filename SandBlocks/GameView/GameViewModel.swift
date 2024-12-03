@@ -7,4 +7,10 @@ class GameViewModel: ObservableObject {
     func goToMenu() {
         isMenuAvailible = true
     }
+    
+    func createGameScene(gameData: GameData) -> GameSpriteKit {
+        let scene = GameSpriteKit()
+        scene.game  = gameData
+        return scene
+    }
 }

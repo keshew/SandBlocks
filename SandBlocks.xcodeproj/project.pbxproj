@@ -7,18 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86373E392CFDD5120021796C /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E362CFDD5120021796C /* RulesView.swift */; };
+		86373E3A2CFDD5120021796C /* RulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E372CFDD5120021796C /* RulesModel.swift */; };
+		86373E3B2CFDD5120021796C /* RulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E382CFDD5120021796C /* RulesViewModel.swift */; };
+		86373E402CFE08410021796C /* LoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E3D2CFE08410021796C /* LoseView.swift */; };
+		86373E412CFE08410021796C /* LoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E3E2CFE08410021796C /* LoseModel.swift */; };
+		86373E422CFE08410021796C /* LoseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E3F2CFE08410021796C /* LoseViewModel.swift */; };
+		86373E472CFE12F70021796C /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E442CFE12F70021796C /* WinView.swift */; };
+		86373E482CFE12F70021796C /* WinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E452CFE12F70021796C /* WinModel.swift */; };
+		86373E492CFE12F70021796C /* WinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E462CFE12F70021796C /* WinViewModel.swift */; };
+		86373E4E2CFE16B80021796C /* ExitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E4B2CFE16B80021796C /* ExitView.swift */; };
+		86373E4F2CFE16B80021796C /* ExitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E4C2CFE16B80021796C /* ExitModel.swift */; };
+		86373E502CFE16B80021796C /* ExitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86373E4D2CFE16B80021796C /* ExitViewModel.swift */; };
+		869C0F7C2CFF442D00FC5767 /* UserDefalutsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C0F7B2CFF442D00FC5767 /* UserDefalutsManager.swift */; };
 		869E08D12CFB02DD001E9122 /* SandBlocksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08D02CFB02DD001E9122 /* SandBlocksApp.swift */; };
 		869E08D32CFB02DD001E9122 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08D22CFB02DD001E9122 /* ContentView.swift */; };
 		869E08D52CFB02DE001E9122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869E08D42CFB02DE001E9122 /* Assets.xcassets */; };
 		869E08D82CFB02DE001E9122 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869E08D72CFB02DE001E9122 /* Preview Assets.xcassets */; };
+		869E08DF2CFB037A001E9122 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08DE2CFB037A001E9122 /* ImageName.swift */; };
+		869E08E32CFB03EF001E9122 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08E02CFB03EF001E9122 /* MenuView.swift */; };
+		869E08E42CFB03EF001E9122 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08E12CFB03EF001E9122 /* MenuModel.swift */; };
+		869E08E52CFB03EF001E9122 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08E22CFB03EF001E9122 /* MenuViewModel.swift */; };
+		869E08EB2CFB0550001E9122 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08EA2CFB0550001E9122 /* CustomButtons.swift */; };
+		869E08F02CFB0B9D001E9122 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08ED2CFB0B9D001E9122 /* LevelView.swift */; };
+		869E08F12CFB0B9D001E9122 /* LevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08EE2CFB0B9D001E9122 /* LevelModel.swift */; };
+		869E08F22CFB0B9D001E9122 /* LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08EF2CFB0B9D001E9122 /* LevelViewModel.swift */; };
+		869E08F72CFB0F29001E9122 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08F42CFB0F29001E9122 /* GameView.swift */; };
+		869E08F82CFB0F29001E9122 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08F52CFB0F29001E9122 /* GameModel.swift */; };
+		869E08F92CFB0F29001E9122 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E08F62CFB0F29001E9122 /* GameViewModel.swift */; };
+		869E08FE2CFB1840001E9122 /* yeast.otf in Resources */ = {isa = PBXBuildFile; fileRef = 869E08FD2CFB183D001E9122 /* yeast.otf */; };
+		869E09012CFB1898001E9122 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869E09002CFB1898001E9122 /* TextExtension.swift */; };
+		86A44EBF2CFBD1A500EACE57 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A44EBC2CFBD1A500EACE57 /* ShopView.swift */; };
+		86A44EC02CFBD1A500EACE57 /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A44EBD2CFBD1A500EACE57 /* ShopModel.swift */; };
+		86A44EC12CFBD1A500EACE57 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A44EBE2CFBD1A500EACE57 /* ShopViewModel.swift */; };
+		86A7EC112CFC5BAA00421E51 /* DailyRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7EC0E2CFC5BAA00421E51 /* DailyRewardView.swift */; };
+		86A7EC122CFC5BAA00421E51 /* DailyRewardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7EC0F2CFC5BAA00421E51 /* DailyRewardModel.swift */; };
+		86A7EC132CFC5BAA00421E51 /* DailyRewardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7EC102CFC5BAA00421E51 /* DailyRewardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86373E362CFDD5120021796C /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		86373E372CFDD5120021796C /* RulesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesModel.swift; sourceTree = "<group>"; };
+		86373E382CFDD5120021796C /* RulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewModel.swift; sourceTree = "<group>"; };
+		86373E3D2CFE08410021796C /* LoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseView.swift; sourceTree = "<group>"; };
+		86373E3E2CFE08410021796C /* LoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseModel.swift; sourceTree = "<group>"; };
+		86373E3F2CFE08410021796C /* LoseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewModel.swift; sourceTree = "<group>"; };
+		86373E442CFE12F70021796C /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		86373E452CFE12F70021796C /* WinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinModel.swift; sourceTree = "<group>"; };
+		86373E462CFE12F70021796C /* WinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewModel.swift; sourceTree = "<group>"; };
+		86373E4B2CFE16B80021796C /* ExitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitView.swift; sourceTree = "<group>"; };
+		86373E4C2CFE16B80021796C /* ExitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitModel.swift; sourceTree = "<group>"; };
+		86373E4D2CFE16B80021796C /* ExitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitViewModel.swift; sourceTree = "<group>"; };
+		869C0F7B2CFF442D00FC5767 /* UserDefalutsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefalutsManager.swift; sourceTree = "<group>"; };
 		869E08CD2CFB02DD001E9122 /* SandBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		869E08D02CFB02DD001E9122 /* SandBlocksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBlocksApp.swift; sourceTree = "<group>"; };
 		869E08D22CFB02DD001E9122 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		869E08D42CFB02DE001E9122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		869E08D72CFB02DE001E9122 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		869E08DE2CFB037A001E9122 /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		869E08E02CFB03EF001E9122 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		869E08E12CFB03EF001E9122 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		869E08E22CFB03EF001E9122 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		869E08EA2CFB0550001E9122 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		869E08ED2CFB0B9D001E9122 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		869E08EE2CFB0B9D001E9122 /* LevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelModel.swift; sourceTree = "<group>"; };
+		869E08EF2CFB0B9D001E9122 /* LevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewModel.swift; sourceTree = "<group>"; };
+		869E08F42CFB0F29001E9122 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		869E08F52CFB0F29001E9122 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		869E08F62CFB0F29001E9122 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		869E08FB2CFB1749001E9122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		869E08FD2CFB183D001E9122 /* yeast.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yeast.otf; sourceTree = "<group>"; };
+		869E09002CFB1898001E9122 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
+		86A44EBC2CFBD1A500EACE57 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		86A44EBD2CFBD1A500EACE57 /* ShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopModel.swift; sourceTree = "<group>"; };
+		86A44EBE2CFBD1A500EACE57 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		86A7EC0E2CFC5BAA00421E51 /* DailyRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRewardView.swift; sourceTree = "<group>"; };
+		86A7EC0F2CFC5BAA00421E51 /* DailyRewardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRewardModel.swift; sourceTree = "<group>"; };
+		86A7EC102CFC5BAA00421E51 /* DailyRewardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRewardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +97,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86373E352CFDD5010021796C /* RulesModule  */ = {
+			isa = PBXGroup;
+			children = (
+				86373E362CFDD5120021796C /* RulesView.swift */,
+				86373E372CFDD5120021796C /* RulesModel.swift */,
+				86373E382CFDD5120021796C /* RulesViewModel.swift */,
+			);
+			path = "RulesModule ";
+			sourceTree = "<group>";
+		};
+		86373E3C2CFE08380021796C /* LoseModule */ = {
+			isa = PBXGroup;
+			children = (
+				86373E3D2CFE08410021796C /* LoseView.swift */,
+				86373E3E2CFE08410021796C /* LoseModel.swift */,
+				86373E3F2CFE08410021796C /* LoseViewModel.swift */,
+			);
+			path = LoseModule;
+			sourceTree = "<group>";
+		};
+		86373E432CFE12ED0021796C /* WinModule */ = {
+			isa = PBXGroup;
+			children = (
+				86373E442CFE12F70021796C /* WinView.swift */,
+				86373E452CFE12F70021796C /* WinModel.swift */,
+				86373E462CFE12F70021796C /* WinViewModel.swift */,
+			);
+			path = WinModule;
+			sourceTree = "<group>";
+		};
+		86373E4A2CFE16A90021796C /* ExitModule */ = {
+			isa = PBXGroup;
+			children = (
+				86373E4B2CFE16B80021796C /* ExitView.swift */,
+				86373E4C2CFE16B80021796C /* ExitModel.swift */,
+				86373E4D2CFE16B80021796C /* ExitViewModel.swift */,
+			);
+			path = ExitModule;
+			sourceTree = "<group>";
+		};
+		869C0F7A2CFF441D00FC5767 /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				869C0F7B2CFF442D00FC5767 /* UserDefalutsManager.swift */,
+			);
+			path = UserDefaultsManager;
+			sourceTree = "<group>";
+		};
 		869E08C42CFB02DD001E9122 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +164,23 @@
 		869E08CF2CFB02DD001E9122 /* SandBlocks */ = {
 			isa = PBXGroup;
 			children = (
+				869E08FB2CFB1749001E9122 /* Info.plist */,
+				869E08FD2CFB183D001E9122 /* yeast.otf */,
 				869E08D02CFB02DD001E9122 /* SandBlocksApp.swift */,
 				869E08D22CFB02DD001E9122 /* ContentView.swift */,
+				869C0F7A2CFF441D00FC5767 /* UserDefaultsManager */,
+				86373E4A2CFE16A90021796C /* ExitModule */,
+				86373E432CFE12ED0021796C /* WinModule */,
+				86373E3C2CFE08380021796C /* LoseModule */,
+				86373E352CFDD5010021796C /* RulesModule  */,
+				86A7EC0D2CFC5B9600421E51 /* DailyRewardModule */,
+				86A44EBB2CFBD19900EACE57 /* ShopModule  */,
+				869E08F32CFB0F1B001E9122 /* GameView */,
+				869E08EC2CFB0B86001E9122 /* LevelModule */,
+				869E08E62CFB03F2001E9122 /* MenuModule */,
 				869E08D42CFB02DE001E9122 /* Assets.xcassets */,
+				869E08E82CFB0437001E9122 /* Helpers */,
+				869E08FF2CFB188A001E9122 /* Extension */,
 				869E08D62CFB02DE001E9122 /* Preview Content */,
 			);
 			path = SandBlocks;
@@ -65,6 +192,89 @@
 				869E08D72CFB02DE001E9122 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		869E08E62CFB03F2001E9122 /* MenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				869E08E02CFB03EF001E9122 /* MenuView.swift */,
+				869E08E12CFB03EF001E9122 /* MenuModel.swift */,
+				869E08E22CFB03EF001E9122 /* MenuViewModel.swift */,
+			);
+			path = MenuModule;
+			sourceTree = "<group>";
+		};
+		869E08E72CFB042D001E9122 /* ImageName */ = {
+			isa = PBXGroup;
+			children = (
+				869E08DE2CFB037A001E9122 /* ImageName.swift */,
+			);
+			path = ImageName;
+			sourceTree = "<group>";
+		};
+		869E08E82CFB0437001E9122 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				869E08E92CFB0547001E9122 /* CustomView */,
+				869E08E72CFB042D001E9122 /* ImageName */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		869E08E92CFB0547001E9122 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				869E08EA2CFB0550001E9122 /* CustomButtons.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		869E08EC2CFB0B86001E9122 /* LevelModule */ = {
+			isa = PBXGroup;
+			children = (
+				869E08ED2CFB0B9D001E9122 /* LevelView.swift */,
+				869E08EE2CFB0B9D001E9122 /* LevelModel.swift */,
+				869E08EF2CFB0B9D001E9122 /* LevelViewModel.swift */,
+			);
+			path = LevelModule;
+			sourceTree = "<group>";
+		};
+		869E08F32CFB0F1B001E9122 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				869E08F42CFB0F29001E9122 /* GameView.swift */,
+				869E08F52CFB0F29001E9122 /* GameModel.swift */,
+				869E08F62CFB0F29001E9122 /* GameViewModel.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		869E08FF2CFB188A001E9122 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				869E09002CFB1898001E9122 /* TextExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		86A44EBB2CFBD19900EACE57 /* ShopModule  */ = {
+			isa = PBXGroup;
+			children = (
+				86A44EBC2CFBD1A500EACE57 /* ShopView.swift */,
+				86A44EBD2CFBD1A500EACE57 /* ShopModel.swift */,
+				86A44EBE2CFBD1A500EACE57 /* ShopViewModel.swift */,
+			);
+			path = "ShopModule ";
+			sourceTree = "<group>";
+		};
+		86A7EC0D2CFC5B9600421E51 /* DailyRewardModule */ = {
+			isa = PBXGroup;
+			children = (
+				86A7EC0E2CFC5BAA00421E51 /* DailyRewardView.swift */,
+				86A7EC0F2CFC5BAA00421E51 /* DailyRewardModel.swift */,
+				86A7EC102CFC5BAA00421E51 /* DailyRewardViewModel.swift */,
+			);
+			path = DailyRewardModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				869E08FE2CFB1840001E9122 /* yeast.otf in Resources */,
 				869E08D82CFB02DE001E9122 /* Preview Assets.xcassets in Resources */,
 				869E08D52CFB02DE001E9122 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +348,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				869E08E32CFB03EF001E9122 /* MenuView.swift in Sources */,
+				86373E4E2CFE16B80021796C /* ExitView.swift in Sources */,
+				86373E4F2CFE16B80021796C /* ExitModel.swift in Sources */,
+				86373E502CFE16B80021796C /* ExitViewModel.swift in Sources */,
+				86373E472CFE12F70021796C /* WinView.swift in Sources */,
+				86373E482CFE12F70021796C /* WinModel.swift in Sources */,
+				86373E492CFE12F70021796C /* WinViewModel.swift in Sources */,
+				869E08E42CFB03EF001E9122 /* MenuModel.swift in Sources */,
+				86373E402CFE08410021796C /* LoseView.swift in Sources */,
+				86373E412CFE08410021796C /* LoseModel.swift in Sources */,
+				86373E422CFE08410021796C /* LoseViewModel.swift in Sources */,
+				86A7EC112CFC5BAA00421E51 /* DailyRewardView.swift in Sources */,
+				86373E392CFDD5120021796C /* RulesView.swift in Sources */,
+				86373E3A2CFDD5120021796C /* RulesModel.swift in Sources */,
+				86373E3B2CFDD5120021796C /* RulesViewModel.swift in Sources */,
+				86A7EC122CFC5BAA00421E51 /* DailyRewardModel.swift in Sources */,
+				86A7EC132CFC5BAA00421E51 /* DailyRewardViewModel.swift in Sources */,
+				869E08EB2CFB0550001E9122 /* CustomButtons.swift in Sources */,
+				869E08E52CFB03EF001E9122 /* MenuViewModel.swift in Sources */,
+				869E08F02CFB0B9D001E9122 /* LevelView.swift in Sources */,
+				869E08F12CFB0B9D001E9122 /* LevelModel.swift in Sources */,
+				869E08F22CFB0B9D001E9122 /* LevelViewModel.swift in Sources */,
+				869E08F72CFB0F29001E9122 /* GameView.swift in Sources */,
+				86A44EBF2CFBD1A500EACE57 /* ShopView.swift in Sources */,
+				86A44EC02CFBD1A500EACE57 /* ShopModel.swift in Sources */,
+				869C0F7C2CFF442D00FC5767 /* UserDefalutsManager.swift in Sources */,
+				86A44EC12CFBD1A500EACE57 /* ShopViewModel.swift in Sources */,
+				869E08F82CFB0F29001E9122 /* GameModel.swift in Sources */,
+				869E08F92CFB0F29001E9122 /* GameViewModel.swift in Sources */,
+				869E09012CFB1898001E9122 /* TextExtension.swift in Sources */,
+				869E08DF2CFB037A001E9122 /* ImageName.swift in Sources */,
 				869E08D32CFB02DD001E9122 /* ContentView.swift in Sources */,
 				869E08D12CFB02DD001E9122 /* SandBlocksApp.swift in Sources */,
 			);
@@ -275,6 +517,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SandBlocks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +547,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SandBlocks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
